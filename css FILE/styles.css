@@ -1,0 +1,208 @@
+/* CSS HEX */
+/* --rich-black-fogra-29: #0d1f2dff;
+--metallic-seaweed: #388697ff;
+--ruby-red: #a30015ff;
+--russian-green: #629677ff;
+--platinum: #eaeaeaff; */
+
+/* font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/* ------------------------project global styles----------------------------------*/
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+line-height: 150%;
+font-size: 20px;
+font-weight: 600;
+}
+
+img {
+width: 300px;
+}
+
+a {
+color: white;
+}
+
+.wrap {
+max-width: 800px;
+width: 85%;
+margin: 0 auto;
+padding: 30px 0;
+}
+
+h1 {
+font-family: 'Caveat', cursive;
+}
+
+h2 {
+
+}
+
+h3 {
+font-family: 'Caveat', cursive;
+}
+
+/* -----------------project header-------------------------------------------- */
+/* 
+.nav {
+    display: block;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+} */
+
+nav a {
+color: whitesmoke;
+border-radius: 5px;
+text-decoration: none;
+border: 1px solid #1C352D;
+
+}
+
+nav {
+position: fixed;
+top: 0;
+right: 0;
+}
+
+header {
+background-color: #629677ff;
+} 
+
+
+/* ------------------------project tutors----------------------------------*/
+
+.tutors {
+background-color: #202020
+}
+
+.tutors a {
+background-color: #004B49;
+border-radius: 5px;
+}
+
+.tutor-items {
+overflow: hidden;
+border-bottom: 1px dashed grey;
+padding: 30px 0;
+}
+
+
+
+
+.tutor-items h3 {
+    margin-top: 0px;
+}
+
+.baddo {
+    border-bottom: none;
+}
+
+/* ------------------------project work experience----------------------------------*/
+.schools {
+/* background-image: url(../images/smoke-2467437_1920.jpg) */
+background-color:#0d1f2dff;
+}
+
+.wrap-school {
+    color: wheat;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.school-items {
+border-bottom: 1px dashed grey;
+padding: 30px 0;
+
+} 
+
+.school-items h3 {
+margin-top: 0px;
+}
+
+.beneficient {
+    border-bottom: none;
+}
+
+
+
+
+/* ------ ------------------project eduction certificates----------------------------------*/
+.qualifications {
+background-color: #004B49;
+}
+.wrapqual {
+    color: white;
+}
+
+/* --------------------------work experience--------------- */
+.work-experience {
+    background-image: url(../images/smoke-2467437_1920.jpg);
+    background-size: 100% 100%;
+}
+.experience-wrap {
+    color: aliceblue;
+}
+
+
+
+/* ------------------------project footer----------------------------------*/
+footer {
+background-color: #1C352D;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.footer-links a {
+    padding: 15px;
+    display: inline-block;
+}
+
+/* Responsive layout -----------------------------------------------------*/
+
+@media (min-width: 800px) {
+
+    .footer-links{
+    display: flex;
+    justify-content: center;
+    }
+
+    header, footer {
+        text-align: center;
+    }
+
+    .school-items {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 50px;
+    }
+
+    .tutor-items img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        margin: 0;
+        font-family: 'Caveat', cursive;
+    }
+
